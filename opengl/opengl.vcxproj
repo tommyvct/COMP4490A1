@@ -93,12 +93,14 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\example0.cpp" />
+    <ClCompile Include="..\src\Assignment1.cpp" />
     <ClCompile Include="..\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\src\fshader.glsl" />
-    <None Include="..\src\vshader.glsl" />
+    <None Include="..\src\fshaderA1Checkboard.glsl" />
+    <None Include="..\src\fshaderA1Tetrahedron.glsl" />
+    <None Include="..\src\vshaderA1Checkboard.glsl" />
+    <None Include="..\src\vshaderA1Tetrahedron.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

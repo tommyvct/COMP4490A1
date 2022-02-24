@@ -25,22 +25,28 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\src\common.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\example0.cpp">
+    <ClCompile Include="..\src\Assignment1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\src\fshader.glsl">
+    <None Include="..\src\fshaderA1Tetrahedron.glsl">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\src\vshader.glsl">
+    <None Include="..\src\vshaderA1Checkboard.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\vshaderA1Tetrahedron.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\fshaderA1Checkboard.glsl">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
