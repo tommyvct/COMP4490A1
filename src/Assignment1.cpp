@@ -257,8 +257,8 @@ void display()
     glUseProgram(tetrahedronElement.Program);
 
 
-    //if (rerenderTetrahedron)
-    //{
+    if (rerenderTetrahedron)
+    {
         GLuint buffer;
         GLuint vPosition = glGetAttribLocation(tetrahedronElement.Program, "vPosition");
 
@@ -280,8 +280,8 @@ void display()
         glEnableVertexAttribArray(vPosition);
         glVertexAttribPointer(vPosition, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0));
 
-    //    rerenderTetrahedron = false;
-    //}
+        rerenderTetrahedron = false;
+    }
 
 
     // give data to shader
